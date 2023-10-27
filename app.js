@@ -33,9 +33,9 @@ while (joe.hp > 0 && obamna.hp > 0) {
         joe.hp -= attackPokemon(obamna.attack,joe.defense)
         console.log("pv de joe " + joe.hp)
     }
-    if (joe.hp < 0) {
+    if (joe.hp <= 0) {
         console.log("We're barack")
-    } else if (obamna.hp < 0) {
+    } else if (obamna.hp <= 0) {
         console.log("It's joever")
     }
    
